@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    text-align: center;
+    color: black;
+}
+.parent{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 130px;
+    
+    flex-direction: row;
+    align-items: center;
+    
+    padding-left: 230px;
+    
+}
+.one{
+    background-color: antiquewhite;
+    width: 20vw;
+    height: 50vh;
+    
+    border-radius: 10px;
+    padding: 10px;
+}
+.two{
+    background-color: aqua;
+    width: 20vw;
+    height: 50vh;
+    padding: 10px;
+    border-radius: 10px;
+}
+.three{
+    background-color: blue;
+    width: 20vw;
+    height: 50vh;
+    padding: 10px; 
+    border-radius: 10px;
+}
+button{
+    margin-left: 85px;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+@media only screen and(max-width:600px)
